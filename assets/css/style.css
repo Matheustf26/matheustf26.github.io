@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lusitana|Raleway:400,600,700');
+
+body {
+    font-family: 'Lusitana', serif;
+    font-size: 14px;
+}
+
+.bg {
+    width: 100%;
+    height: 88vh;
+
+    background: url("https://media.giphy.com/media/l2Sq3IVY5ZbYzUURq/giphy.gif") center center no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.nav-wrapper {
+    background-color: white;
+
+}
+
+.nav-wrapper a{
+    color: #1a2325;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+nav .brand-logo {
+    color: #1a2325 !important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7em !important;
+    margin-left: 12px;
+}
+
+.about {
+    text-align: center;
+    height: 100vh;
+}
+
+.about-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about-wrapper div{
+   
+    max-width: 30%;
+    font-size: 1.2em;
+    height: 220px;
+    text-align: left;
+}
+
+.contact {
+    height: 35vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0,0,0, 0.8);
+    color: white;
+}
+
+.contact-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+}
